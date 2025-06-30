@@ -1,4 +1,4 @@
-# Angular‑Advance
+# Angular-Advance
 
 **Clone this repo:**
 
@@ -11,105 +11,100 @@ cd Angular-Advance
 
 ## Contents
 
-This repo is a playground of advanced Angular concepts. Each folder is a standalone project you can run and explore:
+This repo is a collection of advanced Angular concepts. Each folder is a standalone project you can run and learn from:
 
-### 🔹 Life‑Cycle‑Hooks  
-Demonstrates Angular component lifecycle hooks: `ngOnInit`, `ngOnChanges`, `ngAfterViewInit`, `ngOnDestroy`, and more.
+### Life-Cycle-Hooks  
+Demonstrates Angular component lifecycle hooks like `ngOnInit`, `ngOnChanges`, `ngAfterViewInit`, `ngOnDestroy`, and others.
 
-### 🔹 Lazy‑Loading  
-A showcase of lazy-loaded feature modules with Angular Router for improved performance and modularity.
+### Lazy-Loading  
+A feature module-based example showing how to use Angular Router to lazy-load modules and improve app performance.
 
-### 🔹 ToDo‑Observables  
-A To‑Do app built with RxJS Observables — demonstrates reactive data flow, `Subject`, and `BehaviorSubject`.
+### ToDo-Observables  
+A To-Do application built with RxJS Observables. Demonstrates reactive data flow using `Subject`, `BehaviorSubject`, and `Observable`.
 
-### 🔹 DI‑Providers  
-Examples of Angular Dependency Injection: service providers at root/component/module level and the use of `@Injectable`, `@Optional`, and `@SkipSelf`.
+### DI-Providers  
+Examples of Angular's Dependency Injection system, including provider scopes at root, component, and module levels.
 
-### 🔹 Route‑Guards  
-How to implement router guards (`CanActivate`, `CanDeactivate`, `Resolve`, `CanLoad`) for protecting routes and handling unsaved changes.
+### Route-Guards  
+Demonstrates route protection using Angular guards: `CanActivate`, `CanDeactivate`, `CanLoad`, and `Resolve`.
 
-### 🔹 Toy_Tracker  
-A small demo app to track toy inventory or usage — includes routing, forms, and data binding.
+### firebase-crud  
+A complete example of CRUD operations with Angular and Firebase (Firestore) using real-time database features.
 
-### 🔹 assets  
-Shared assets (images, JSON files) used across multiple demo projects for UI/mock data.
-
-### 🔹 firebase‑crud  
-CRUD operations using Angular + Firebase (Firestore): create, read, update, delete data with real-time updates.
-
-### 🔹 unit‑testing  
-Unit testing examples using Karma + Jasmine: component testing, service testing, mocking dependencies, using `TestBed`.
+### unit-testing  
+Examples of unit tests using Angular TestBed, Karma, and Jasmine. Includes testing components, services, and mocking techniques.
 
 ---
 
-## ✅ Quick Start Guide
+## Quick Start Guide
 
-1. **Navigate** into any project folder:  
+1. Navigate to a specific project folder:
    ```bash
    cd ToDo-Observables
    ```
-2. **Install dependencies:**  
+
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. **Run the app:**  
+
+3. Run the app:
    ```bash
    ng serve
    ```
    Visit `http://localhost:4200` in your browser.
 
-4. **Run tests** (for `unit-testing` folder):  
+4. Run tests (for the `unit-testing` folder):
    ```bash
    ng test
    ```
 
 ---
 
-## 🔧 Tools & Technologies Used
+## Tools & Technologies Used
 
 - Angular CLI
 - RxJS (Observables)
-- Angular Router (lazy-loading, guards)
+- Angular Router (lazy loading, guards)
 - Angular Dependency Injection
-- Firebase Firestore (for demo)
-- Karma + Jasmine (unit testing)
+- Firebase (Firestore)
+- Karma & Jasmine (unit testing)
 - TypeScript, HTML, CSS
 
 ---
 
-## 🎯 How to Use This Repo
+## How to Use This Repo
 
-- Explore each project as a standalone Angular app.
-- Learn by running and inspecting code — particularly for lifecycle events, routing techniques, DI, and testing.
-- Compare implementations across demos for a deeper understanding of best practices.
-
----
-
-## 📚 Further Learning
-
-- Angular official docs: [angular.dev](https://angular.dev)
-- RxJS guide for Observables
-- Firebase + Angular integration
-- Angular Testing Cookbook
-- Tutorials on Guards, Lazy-loading, DI scopes, Lifecycle hooks
+- Explore each project independently.
+- Learn by running and modifying the code.
+- Compare approaches across projects to better understand Angular architecture and best practices.
 
 ---
 
-## 🙌 Contribution
+## Further Learning
 
-Feel free to suggest improvements, add reusable features, or include more advanced demos like:
-- State management with NgRx/signals
-- Cursor-based pagination
-- End-to-end testing with Cypress/Protractor
-
-Contributions and feedback are welcome!
-
----
-
-## 🧩 Who Is This For?
-
-Developers preparing for intermediate/advanced Angular interviews, building modular apps, or looking to improve architecture and testing skills.
+- Angular official documentation: [angular.dev](https://angular.dev)
+- RxJS documentation and patterns
+- Firebase + Angular integration guides
+- Angular testing strategies and tools
+- Tutorials on Angular routing, lazy loading, DI, and lifecycle hooks
 
 ---
 
-*Enjoy exploring Angular to the next level!* 😊
+## Contribution
+
+Feel free to suggest changes, contribute new demos, or improve existing ones. Possible contributions include:
+
+- Adding NgRx or signal-based state management
+- Implementing cursor-based pagination
+- Enhancing test coverage or adding e2e testing
+
+---
+
+## Who Is This For?
+
+This repo is ideal for:
+
+- Developers preparing for Angular interviews
+- Engineers building modular, scalable Angular applications
+- Learners aiming to master advanced Angular concepts
