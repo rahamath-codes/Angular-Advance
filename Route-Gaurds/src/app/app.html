@@ -1,0 +1,20 @@
+<div class="nav">
+  <ul>
+    <li><a routerLink="/user">User</a></li>
+    <li><a [routerLink]="['adduser']">Add User</a></li>
+    <li><a [routerLink]="[{ outlets: { addUser: ['adduser'] } }]">Add User</a></li>
+  </ul>
+</div>
+<router-outlet></router-outlet> 
+<div class="ad">
+  <router-outlet name="addUser"></router-outlet>
+</div>
+
+<!-- !
+Auxiliary route with outlet: 'addUser' means:
+
+You need a named <router-outlet name="addUser"></router-outlet> in your template to render AddUser component.
+
+URL example for auxiliary route:
+/primary-route-path(aux:adduser)
+!-->
